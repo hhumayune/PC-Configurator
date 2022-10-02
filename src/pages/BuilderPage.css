@@ -1,0 +1,22 @@
+.BuilderPageContent {
+    width: 100%;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+}
+
+.sidenav {
+    width: 30%;
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+.info-container {
+    text-align: left;
+    background-color: rgb(78, 78, 78);
+    padding: 15px;
+}
+
+.dbcontent {
+    width: 70%;
+}

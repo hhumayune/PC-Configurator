@@ -1,0 +1,51 @@
+.banner {
+    color: white;
+    padding: 20px;
+    background-color: #353c77;
+}
+
+.database {
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.clearselection {
+  background-color: #353c77;
+  color: white;
+  width: 100%;
+  padding: 10px;
+}
+.clearselection :hover { 
+  background-color: #4a5296;
+}
+
+#listtable {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+    margin: auto;
+  }
+  #listtable td, #listtable th {
+    padding: 8px;
+    color: black;
+  }
+  #listtable tr {
+     border-bottom: 1px solid black; 
+     background-color: #dbdbdb;
+     border-radius: 5px;
+     transition: 0.2s;
+  }
+  #listtable tr:hover { 
+    background-color: #b4b4b4
+  }
+  #listtable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #353c77;
+    color: white;
+  }
+  #listtable th:hover { 
+    background-color: #4a5296
+  }

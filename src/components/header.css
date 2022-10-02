@@ -1,0 +1,29 @@
+.App-header {
+    background-color: #313e5a;
+    height:70px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    text-align: left;
+  }
+  
+  .header-secondary {
+    background-color: #293347;
+    height: 38px;
+    color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .hcolumn {
+    display: flex;
+    background-color: #2971ce;
+    width: 25%;
+    height: 38px;
+    justify-content: center;
+    align-items: center;
+  }

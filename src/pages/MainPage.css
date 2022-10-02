@@ -1,0 +1,203 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  .App-header {
+    background-color: #313e5a;
+    height:70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    text-align: left;
+  }
+  
+  .header-secondary {
+    background-color: #293347;
+    height: 38px;
+    color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .hcolumn {
+    display: flex;
+    background-color: #2971ce;
+    width: 25%;
+    height: 38px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .linkbox {
+    float: right;
+    background-color: #bd3434;
+    padding-left: 5px;
+  }
+  
+  .content {
+    background-color: rgb(66, 66, 66);
+    color: white;
+    min-height: 30px;
+    padding-bottom: 5%;
+  }
+  
+  .banner {
+    background-color: rgb(68, 60, 92);
+    color: white;
+    min-height: 30px;
+    padding: 1%;
+  }
+  
+  .panel-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .fpanel-container {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    padding: 8px;
+    margin: 8px;
+    background-color: rgb(76, 64, 121);
+    border-radius: 25px;
+  }
+  
+  .panels-guides {
+    margin: 5px;
+    width: 25%;
+    height: 120px;
+    align-items: center;
+    background-color: rgb(47, 96, 119);
+    border-radius: 25px;
+  }
+  
+  .panels-builds {
+    border-radius: 20px;
+    margin: 5px;
+    width: 50%;
+    align-items: center;
+    background-color: rgb(202, 202, 202);
+    color: black;
+  }
+  
+  .panels-featured-message {
+    margin: 10px;
+    width: 50%;
+    height: 140px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .list-details {
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 4px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 19px;
+  }
+  .listid {
+    flex-grow: 1;
+    background-color: rgb(97, 73, 97);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+  .listcpb {
+    flex-grow: 2;
+    background-color: rgb(117, 161, 116);
+  }
+  .listwattage {
+    flex-grow: 1;
+    background-color: rgb(31, 86, 121);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  
+  .table-box {
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  #listtable {
+    border-collapse: collapse;
+    /* width: 80%; */
+    text-align: left;
+    margin: auto;
+  }
+  #listtable td, #listtable th {
+    padding: 8px;
+    color: black;
+  }
+  #listtable tr { border: 1px solid rgb(138, 138, 138); background-color: #dbdbdb}
+  #listtable tr:hover { background-color: #e7e7e7}
+  #listtable th {
+    /* width: 20%; */
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #636aa5;
+    color: white;
+  }
+  .table-select-button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 3px;
+    border: none;
+  }
+  .table-select-button:hover {
+    background-color: #388f3b;
+  }
+  
+  .dbcontent {
+    background-color: rgb(66, 66, 66);
+    color: white;
+    min-height: 30px;
+    padding-bottom: auto;
+  }
+  
+  .sidefilters {
+    width: 200px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    background-color: rgb(95, 95, 95); /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    margin-left: 2%;
+    border-radius: 8px;
+  }
+  
+  .sidefilters p {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #e0e0e0;
+    display: block;
+  }
+  
+  .db-select-container {
+    margin-left: 160px;
+    min-height: 500px;
+  }
+  
+  .filter {
+    margin: 10px;
+    border-bottom: 1px solid rgb(46, 46, 46);
+  }
+  
+  

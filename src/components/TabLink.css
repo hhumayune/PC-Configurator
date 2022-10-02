@@ -1,0 +1,30 @@
+.tile {
+    padding: 5px;
+    border-bottom: 1px solid black;
+    border-right: 10px solid rgb(57, 110, 66);
+    transition: 0.2s;
+    display: flex;
+    align-items: left;
+    width: 100%;
+}
+
+.tile:hover {
+    background-color: rgb(100, 100, 100);
+}
+
+.definition {
+    font-size: 1.25vw;
+    text-align: left;
+    color: white;
+}
+
+.selection {
+    font-size: 1vw;
+    text-align: left;
+    color: rgb(163, 163, 163);
+}
+
+.price {
+    color: rgb(99, 211, 99);
+    text-align: left;
+}
